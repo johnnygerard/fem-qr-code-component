@@ -16,6 +16,15 @@
 
 .qr-code {
   height: auto;
+
+  &-link {
+    border-radius: 10px;
+    transition: filter 1s;
+
+    &:is(:hover, :focus-visible) {
+      filter: hue-rotate(120deg);
+    }
+  }
 }
 
 .text {
