@@ -1,1 +1,17 @@
 @use "index" as *;
+
+body {
+  background-color: $color-light-gray;
+  padding: 28px;
+  min-width: 208px;
+
+  // Center content
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+
+  // Typography (inherited)
+  font-family: "Outfit", sans-serif;
+  font-feature-settings: "clig" off, "liga" off;
+  line-height: normal;
+}
