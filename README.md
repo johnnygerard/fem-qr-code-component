@@ -2,7 +2,7 @@
 
 This is my solution to the [QR code component challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) from [Frontend Mentor](https://www.frontendmentor.io/).
 
-[![project status](https://img.shields.io/badge/status-work%20in%20progress-red?style=for-the-badge)](https://fem-qr-code-component-jgerard.vercel.app)
+[![project status](https://img.shields.io/badge/status-solution%20published-success?style=for-the-badge)](https://fem-qr-code-component-jgerard.vercel.app)
 
 ## Tech Stack
 
@@ -11,6 +11,8 @@ This is my solution to the [QR code component challenge](https://www.frontendmen
 
 ## Main Features
 
+- [ImageKit](https://imagekit.io/) CDN
+- [NgOptimizedImage](https://angular.dev/api/common/NgOptimizedImage) with placeholder
 - Standalone components
 - Bash automation (see [PR #1](../../pull/1))
 - [GitHub Actions](.github/workflows):
@@ -28,13 +30,11 @@ This is my solution to the [QR code component challenge](https://www.frontendmen
 - [Website](https://fem-qr-code-component-jgerard.vercel.app) hosted with [Vercel](https://vercel.com/)
 <!-- - [Solution]() -->
 
-<!-- ## Screenshots
+## Screenshots
+
 ### Mobile
+
 ![mobile screenshot](screenshots/mobile.avif)
-### Tablet
-![tablet screenshot](screenshots/tablet.avif)
-### Desktop
-![desktop screenshot](screenshots/desktop.avif) -->
 
 ## About Frontend Mentor
 
