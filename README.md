@@ -2,7 +2,7 @@
 
 This is my solution to the [QR code component challenge](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) from [Frontend Mentor](https://www.frontendmentor.io/).
 
-[![project status](https://img.shields.io/badge/status-solution%20published-success?style=for-the-badge)](https://fem-qr-code-component-jgerard.vercel.app)
+[![project status](https://img.shields.io/badge/status-solution%20published-success?style=for-the-badge)](https://www.frontendmentor.io/solutions/qr-code-component-QWw2EaIc5d)
 
 ## Tech Stack
 
@@ -28,7 +28,7 @@ This is my solution to the [QR code component challenge](https://www.frontendmen
 ## Links
 
 - [Website](https://fem-qr-code-component-jgerard.vercel.app) hosted with [Vercel](https://vercel.com/)
-<!-- - [Solution]() -->
+- [Solution](https://www.frontendmentor.io/solutions/qr-code-component-QWw2EaIc5d)
 
 ## Screenshots
 
