@@ -14,6 +14,17 @@
         "--auto-open-devtools-for-tabs",
         "--user-data-dir=${userHome}/.config/vscode-chrome-dev"
       ]
+    },
+    {
+      "name": "Load Angular App in Chrome (fr-BE)",
+      "type": "chrome",
+      "request": "launch",
+      "preLaunchTask": "serve fr-BE",
+      "url": "http://localhost:4200/",
+      "runtimeArgs": [
+        "--auto-open-devtools-for-tabs",
+        "--user-data-dir=${userHome}/.config/vscode-chrome-dev"
+      ]
     }
   ]
 }

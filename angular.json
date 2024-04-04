@@ -5,6 +5,15 @@
   "projects": {
     "fem-qr-code-component": {
       "projectType": "application",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "fr-BE": {
+            "translation": "src/locale/messages.fr-BE.xlf",
+            "baseHref": "/fr-BE/"
+          }
+        }
+      },
       "schematics": {
         "@schematics/angular:component": {
           "changeDetection": "OnPush",
@@ -41,6 +50,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": true,
             "outputPath": "dist/fem-qr-code-component",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -62,9 +72,14 @@
               "src/styles.scss",
               "src/reset.css"
             ],
-            "scripts": []
+            "scripts": [ ]
           },
           "configurations": {
+            "fr-BE": {
+              "localize": [
+                "fr-BE"
+              ]
+            },
             "production": {
               "budgets": [
                 {
@@ -97,6 +112,9 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
+            "fr-BE": {
+              "buildTarget": "fem-qr-code-component:build:development,fr-BE"
+            },
             "production": {
               "buildTarget": "fem-qr-code-component:build:production"
             },
@@ -134,7 +152,7 @@
               "src/styles.scss",
               "src/reset.css"
             ],
-            "scripts": []
+            "scripts": [ ]
           }
         },
         "lint": {

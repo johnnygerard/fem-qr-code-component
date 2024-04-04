@@ -21,6 +21,25 @@
       }
     },
     {
+      "label": "serve fr-BE",
+      "type": "shell",
+      "command": "ng serve --configuration fr-BE",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": {
+            "regexp": "Building..."
+          },
+          "endsPattern": {
+            "regexp": "Application bundle generation complete"
+          }
+        }
+      }
+    },
+    {
       "label": "test (all specs)",
       "type": "shell",
       "command": "ng test",
