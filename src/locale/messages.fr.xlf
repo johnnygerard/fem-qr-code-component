@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5576734095188091648" datatype="html">
+        <source>Frontend Mentor QR code</source>
+        <target>Code QR de Frontend Mentor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5485677899247012296" datatype="html">
+        <source>Improve your front-end skills by building projects</source>
+        <target>Améliore tes compétences front-end en construisant des projets</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="215648945901734021" datatype="html">
+        <source>
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </source>
+        <target>
+          Scanne le code QR pour visiter Frontend Mentor et améliore tes compétences en codage
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6633351701252549037" datatype="html">
+        <source>Challenge by Frontend Mentor. Coded by Johnny Gérard.</source>
+        <target>Défi par Frontend Mentor. Codé par Johnny Gérard.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/main.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1531802668538218917" datatype="html">
+        <source>Portfolio: https://www.frontendmentor.io/profile/johnnygerard</source>
+        <target>Portfolio: https://www.frontendmentor.io/profile/johnnygerard</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/main.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
