@@ -13,6 +13,7 @@ This is my solution to the [QR code component challenge](https://www.frontendmen
 
 - [ImageKit](https://imagekit.io/) CDN
 - [NgOptimizedImage](https://angular.dev/api/common/NgOptimizedImage) with placeholder
+- [Angular i18n](https://angular.dev/guide/i18n) with [Vercel Edge Middleware](https://vercel.com/docs/functions/edge-middleware) (visit [French version](https://fem-qr-code-component-jgerard.vercel.app/fr-BE))
 - Standalone components
 - Bash automation (see [PR #1](../../pull/1))
 - [GitHub Actions](.github/workflows):

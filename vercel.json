@@ -1,4 +1,14 @@
 {
+  "rewrites": [
+    {
+      "source": "/en-US/:path*",
+      "destination": "/en-US/index.html"
+    },
+    {
+      "source": "/fr-BE/:path*",
+      "destination": "/fr-BE/index.html"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
