@@ -1,5 +1,12 @@
 @use "index" as *;
 
+html {
+  // The division allows using rem units instead of px units without changing the value.
+  // Example: font-size: 20px; -> font-size: 20rem;
+  $default-font-size: 16;
+  font-size: calc(clamp(8px, 1rem, 32px) / $default-font-size);
+}
+
 body {
   background-color: $color-light-gray;
   padding: 28px;
